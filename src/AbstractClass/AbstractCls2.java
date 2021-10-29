@@ -4,7 +4,7 @@ abstract class Abstract1{
 	abstract void getdata1();
 		}
 
-public class AbstractCls2 extends Abstract1{
+abstract public class AbstractCls2 extends Abstract1{
 	
 	public static void main(String[] args) {
 		

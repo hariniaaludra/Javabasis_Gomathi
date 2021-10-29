@@ -5,9 +5,5 @@ package Interface;
 		System.out.println("hii");
 	}
 	
-	public static void main(String[] args) {
-	
-		
-		
-}
+
 }
