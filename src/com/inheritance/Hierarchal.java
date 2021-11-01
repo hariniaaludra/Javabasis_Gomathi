@@ -1,17 +1,17 @@
 package com.inheritance;
-class petAnimal{ //calss name was in small letter
+class PetAnimal{ //calss name was in small letter
 	String Name = "pets";
 	void display1() {
 		System.out.println(Name);
 	}
 }
-class Puppy extends petAnimal{
+class Puppy extends PetAnimal{
 	String DogName = "Tom";
 	void display2() {
 		System.out.println(DogName);
 	}
 }
-class Rat extends petAnimal{
+class Rat extends PetAnimal{
 	String CatName = "Tiny";
 	void display3() {
 		System.out.println(CatName);

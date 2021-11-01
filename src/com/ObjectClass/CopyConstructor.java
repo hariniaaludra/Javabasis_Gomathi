@@ -1,20 +1,20 @@
 package com.ObjectClass;
 
 public class CopyConstructor {
-	String n;//variables are not in propername;
+	String strname;//variables are not in propername;
 	int num;
 	CopyConstructor(String name, int id){
-	n=name;
+	strname=name;
 	num=id;
 		
 	}
 	CopyConstructor(CopyConstructor C){
-		n = C.n;
+		strname = C.strname;
 		num =C.num;
 		
 	}
 	void display() {
-		System.out.println(n+" "+num);
+		System.out.println(strname+" "+num);
 		
 	}
 public static void main(String[] args) {

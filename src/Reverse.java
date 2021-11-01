@@ -1,6 +1,6 @@
 
 public class Reverse {
-	public static void	ReverseStr(String arr[]){// Name convention 
+	public static void	reverseStr(String arr[]){// Name convention 
 			for(int i = arr.length-1; i>=0;i--) {
 				System.out.println(arr[i]);
 		}
@@ -8,7 +8,7 @@ public class Reverse {
 	
 	public static void main(String[] args) {
 		String arr[] = new String[]{"i","h","t","a","m","o","G"}   ;
-		ReverseStr(arr);
+		reverseStr(arr);
 	//String []arr  = {"i","t","h","a","m","o","G"};
 	//for(int i = arr.length-1; i>=0;i--)
 		
