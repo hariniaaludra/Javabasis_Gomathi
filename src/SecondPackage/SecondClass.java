@@ -1,5 +1,5 @@
 package SecondPackage;
-import FirstPackage.*;//import FirstPackage.FirstClass;-->pakage with class
+import FirstPackage.*;//import FirstPackage.FirstClass;-->pakage with class --//import package name .class name
 public class SecondClass {
 	public static void main(String[] args) {
 		FirstClass obj1 = new FirstClass();

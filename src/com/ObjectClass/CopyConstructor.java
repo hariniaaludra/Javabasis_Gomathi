@@ -1,11 +1,11 @@
 package com.ObjectClass;
 
 public class CopyConstructor {
-	String n;
+	String n;//variables are not in propername;
 	int num;
 	CopyConstructor(String name, int id){
-		n=name;
-		num=id;
+	n=name;
+	num=id;
 		
 	}
 	CopyConstructor(CopyConstructor C){

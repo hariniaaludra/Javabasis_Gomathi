@@ -1,18 +1,18 @@
 package com.inheritance;
-class X{
-	int a;
-	int b;
+class X{ //it was not in proper name
+	int a; 
+	int b; //we can declear the values here itself
 
 		void getdata() {
 			a=10;
-			b= 20;
+			b=20;
 			System.out.println(a+b);
 		}
 	}
 	class Y extends X{
 		void getdata1() {
 			a=10;
-			b= 20;
+			b= 20;//dont want to declear values
 			System.out.println(a-b);
 		}
 	}

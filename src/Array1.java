@@ -4,10 +4,10 @@ public class Array1 {
 		
 		return new int[] {10,20,30,40};
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int arr[]=get();
 		int sum =0;
-		for (int i = 0; i < arr.length; i++)
+		for (int i = 0; i < arr.length; i++) 
 		{  
 	    sum = sum + arr[i]/3;
 	    

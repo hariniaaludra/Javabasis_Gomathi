@@ -1,7 +1,7 @@
 package Polymorphism;
  class College{
 	
-	public void Details(String name,int id, String University) {
+	public void Details(String name,int id, String University) {//method name should be in small letter
 		
 		System.out.println("College details: "+ name + id + University );
 		}

@@ -1,7 +1,7 @@
 package Enumeration;
 
  enum Month{
-	jan, feb,mar
+	jan, feb,mar //should be in capital
 }
 
 

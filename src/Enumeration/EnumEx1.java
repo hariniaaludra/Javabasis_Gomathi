@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	Animals A = Animals.dog;
 
 
-}	
+}	//wants to close another bracket
 	
 
 

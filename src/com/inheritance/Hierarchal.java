@@ -1,5 +1,5 @@
 package com.inheritance;
-class petAnimal{
+class petAnimal{ //calss name was in small letter
 	String Name = "pets";
 	void display1() {
 		System.out.println(Name);
