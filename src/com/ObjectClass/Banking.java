@@ -2,7 +2,7 @@ package com.ObjectClass;
 import java.util.Scanner;
 
 class Amount{
-	int AccountNo;
+	int accountNo;
 	String name;
 	float amount;
 	
@@ -10,7 +10,7 @@ class Amount{
 	void insert() {
 	Scanner abc = new Scanner(System.in);
 		System.out.println("Enter your Account Number");
-		AccountNo = abc.nextInt();
+		accountNo = abc.nextInt();
 		System.out.println("Enter your name");
 		 name = abc.next();
 		 System.out.println("Enter your amount");
@@ -37,7 +37,7 @@ class Amount{
 		System.out.println(amount);
 	}	
 	void display() {
-		System.out.println("Account No:"+AccountNo );
+		System.out.println("Account No:"+accountNo );
 		System.out.println("name:"+name);
 		System.out.println("Amount"+amount);
 	}
