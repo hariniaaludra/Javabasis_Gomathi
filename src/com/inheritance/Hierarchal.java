@@ -1,28 +1,35 @@
 package com.inheritance;
-class petAnimal{
-	String Name = "pets";
+
+class PetAnimal { // calss name was in small letter
+	String name = "pets";
+
 	void display1() {
-		System.out.println(Name);
+		System.out.println(name);
 	}
 }
-class Puppy extends petAnimal{
-	String DogName = "Tom";
+
+class Puppy extends PetAnimal {
+	String dogName = "Tom";
+
 	void display2() {
-		System.out.println(DogName);
+		System.out.println(dogName);
 	}
 }
-class Rat extends petAnimal{
-	String CatName = "Tiny";
+
+class Rat extends PetAnimal {
+	String catName = "Tiny";
+
 	void display3() {
-		System.out.println(CatName);
+		System.out.println(catName);
 	}
 }
+
 public class Hierarchal {
-public static void main(String[] args) {
-	Puppy obj1 = new Puppy();
-	Rat obj2 = new Rat();
-	obj1.display1();
-	obj1.display2();
-	obj2.display3();
-}
+	public static void main(String[] args) {
+		Puppy obj1 = new Puppy();
+		Rat obj2 = new Rat();
+		obj1.display1();
+		obj1.display2();
+		obj2.display3();
+	}
 }

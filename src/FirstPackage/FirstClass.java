@@ -10,7 +10,7 @@ public class FirstClass {
 	System.out.println(s2);
 	System.out.println(s3);
 	}
-	public void string1() {
+	public void stringName() {
 		String s4 = "Abi";
 		byte[] str = s4.getBytes();
 		for(int i = 0;i<str.length;i++) {
