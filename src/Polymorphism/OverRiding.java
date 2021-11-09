@@ -1,13 +1,13 @@
 package Polymorphism;
 
 class Employee {
-	void employee(int a, int b) {
+	void Employee(int a, int b) {
 		System.out.println("Name: " + a + "\n id: " + b);
 	}
 }
 
 class Emply1 extends Employee {
-	void employee(int a, int b) {
+	void Employee(int a, int b) {
 		System.out.println("Name: " + a + "\n id: " + b);
 	}
 }
@@ -16,8 +16,8 @@ public class OverRiding {
 
 	public static void main(String[] args) {
 		Employee obj = new Employee();
-		obj.employee(2, 6);
-		obj.employee(2, 6);
+		obj.Employee(2, 6);
+		obj.Employee(2, 6);
 	}
 
 }

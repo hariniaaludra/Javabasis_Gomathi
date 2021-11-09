@@ -1,32 +1,28 @@
 package com.ObjectClass;
 
 public class CopyConstructor {
-	String strname;// variables are not in propername;
+	String n;
 	int num;
-
-	CopyConstructor(String name, int id) {
-		strname = name;
-		num = id;
-
+	CopyConstructor(String name, int id){
+		n=name;
+		num=id;
+		
 	}
-
-	CopyConstructor(CopyConstructor student) {
-		strname = student.strname;
-		num = student.num;
-
+	CopyConstructor(CopyConstructor C){
+		n = C.n;
+		num =C.num;
+		
 	}
-
 	void display() {
-		System.out.println(strname + " " + num);
-
+		System.out.println(n+" "+num);
+		
 	}
-
-	public static void main(String[] args) {
-
-		CopyConstructor Con = new CopyConstructor("abi", 123);
-		CopyConstructor Con1 = new CopyConstructor(Con);
-		Con.display();
-		Con1.display();
-
-	}
+public static void main(String[] args) {
+	
+	CopyConstructor Con = new CopyConstructor("abi",123);
+	CopyConstructor Con1 = new CopyConstructor(Con);
+	Con.display();
+	Con1.display();
+	
+}
 }

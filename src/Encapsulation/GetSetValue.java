@@ -1,24 +1,20 @@
 package Encapsulation;
-
-class Name {
-	private String myName;
-
-	public String getMyName() {
-		return myName;
-	}
-
-	public void setMyName(String myName) {
-		this.myName = myName;
-	}
-
-
+ class Name{
+private String myName;
+//public String setName;
+public String getName() {
+	return myName;
 }
-
+public void setName(String name){
+	this.myName = name;	
+}
+}
 public class GetSetValue {
-	public static void main(String[] args) {
-		Name obj = new Name();
-		obj.setMyName("gomathi");
-		System.out.println(obj.getMyName());
-
-	}
+public static void main(String[] args) {
+	Name obj = new Name();
+	obj.setName ("gomathi");
+	System.out.println(obj.getName());
+	
 }
+}
+ 

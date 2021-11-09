@@ -2,15 +2,15 @@ package com.ObjectClass;
 import java.util.Scanner;
 
 class Amount{
-	int accountNo;
+	int AccountNo;
 	String name;
 	float amount;
 	
 	
 	void insert() {
-	Scanner abc = new Scanner(System.in);
+		Scanner abc = new Scanner(System.in);
 		System.out.println("Enter your Account Number");
-		accountNo = abc.nextInt();
+		AccountNo = abc.nextInt();
 		System.out.println("Enter your name");
 		 name = abc.next();
 		 System.out.println("Enter your amount");
@@ -18,7 +18,8 @@ class Amount{
 		//AccountNo = acc;
 		//name =n;
 		//amount = amt;
-	} void widthdraw(float amt) {
+	}
+	void widthdraw(float amt) {
 		if(amount<amt) {
 			
 			System.out.println("insufficiant balance");
@@ -32,12 +33,12 @@ class Amount{
 	void deposite(float amt) {
 		amount = amount + amt;
 		System.out.println("Deposite"+ amt);
-	}	
+	}
 	void balance() {
 		System.out.println(amount);
-	}	
+	}
 	void display() {
-		System.out.println("Account No:"+accountNo );
+		System.out.println("Account No:"+AccountNo );
 		System.out.println("name:"+name);
 		System.out.println("Amount"+amount);
 	}

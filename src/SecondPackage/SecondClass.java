@@ -1,11 +1,11 @@
 package SecondPackage;
-import FirstPackage.*;//import FirstPackage.FirstClass;-->pakage with class --//import package name .class name
+import FirstPackage.*;//import FirstPackage.FirstClass;-->pakage with class
 public class SecondClass {
 	public static void main(String[] args) {
-		FirstClass name = new FirstClass();
-		name.string();
-		name.string1();
-		name.stringchar();
+		FirstClass obj1 = new FirstClass();
+		obj1.string();
+		obj1.string1();
+		obj1.stringchar();
 	}
 
 }

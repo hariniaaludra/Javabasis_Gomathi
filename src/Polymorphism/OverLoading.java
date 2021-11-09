@@ -10,7 +10,7 @@ void interest(int a,int b,int c) {
 	System.out.println(a+b);
 	}
 public static void main(String[] args) {
-	//OverLoading d1;          
+	//OverLoading d1;
 	OverLoading obj = new OverLoading();
 	obj.interest(5,6);
 	obj.interest(7,8,4);

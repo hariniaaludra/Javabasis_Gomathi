@@ -4,10 +4,10 @@ public class UnBoxing {
 public static void main(String[] args) {
 	
 	
-	Integer S = new Integer(3);
+	Integer S = new Integer(10);
 	int i = S.intValue();
-	int j =S;
-	System.out.println(j);
+	int j =i;
+	System.out.println(S + " "+ i + " " + j);
 	
 }
 }
