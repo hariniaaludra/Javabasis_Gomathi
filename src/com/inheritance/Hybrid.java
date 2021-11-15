@@ -1,5 +1,5 @@
 package com.inheritance;
-class X{
+class X{//give class name proper
 	int a;
 	int b;
 
@@ -9,14 +9,14 @@ class X{
 			System.out.println(a+b);
 		}
 	}
-	class Y extends X{
+	class Y extends X{//give class name proper
 		void getdata1() {
 			a=10;
 			b= 20;
 			System.out.println(a-b);
 		}
 	}
-	class Z extends Y{
+	class Z extends Y{//give class name proper
 		void getdata2() {
 			a=10;
 			b= 20;

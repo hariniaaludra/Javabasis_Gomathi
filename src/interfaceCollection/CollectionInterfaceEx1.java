@@ -1,4 +1,4 @@
-package interfaceCollection;
+package interfaceCollection;//package should be in com.interfacecollection
 
 public class CollectionInterfaceEx1 {
 	//collections of interface-list, set ,queue

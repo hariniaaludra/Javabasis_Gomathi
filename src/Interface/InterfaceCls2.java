@@ -1,4 +1,4 @@
-package Interface;
+package Interface;//package should be in com.interface
 
 public class InterfaceCls2 {
 public static void main(String[] args) {

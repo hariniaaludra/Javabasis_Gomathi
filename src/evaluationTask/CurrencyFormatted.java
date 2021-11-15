@@ -1,4 +1,4 @@
-package evaluationTask;
+package evaluationTask;//package should be in com.evalutiontask
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;

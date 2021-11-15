@@ -1,20 +1,20 @@
 package com.inheritance;
-class petAnimal{
-	String Name = "pets";
+class PetAnimal{//class should be in PetAnimal
+	String name = "pets";
 	void display1() {
-		System.out.println(Name);
+		System.out.println(name);
 	}
 }
-class Puppy extends petAnimal{
-	String DogName = "Tom";
+class Puppy extends PetAnimal{
+	String dogname = "Tom";
 	void display2() {
-		System.out.println(DogName);
+		System.out.println(dogname);
 	}
 }
-class Rat extends petAnimal{
-	String CatName = "Tiny";
+class Rat extends PetAnimal{
+	String catname = "Tiny";
 	void display3() {
-		System.out.println(CatName);
+		System.out.println(catname);
 	}
 }
 public class Hierarchal {

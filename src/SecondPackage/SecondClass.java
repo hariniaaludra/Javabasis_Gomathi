@@ -1,5 +1,5 @@
-package SecondPackage;
-import FirstPackage.*;//import FirstPackage.FirstClass;-->pakage with class
+package SecondPackage;//package should be in com.secondpackage
+import com.firstpackage.*;
 public class SecondClass {
 	public static void main(String[] args) {
 		FirstClass obj1 = new FirstClass();

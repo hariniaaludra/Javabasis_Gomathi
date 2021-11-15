@@ -2,21 +2,21 @@ package com.inheritance;
 
 
 	class Animal{
-		String Name = "pets";
+		String name = "pets";//should be in small letter
 		void display1() {
-			System.out.println(Name);
+			System.out.println(name);
 		}
 	}
 	class Dog extends Animal{
-		String DogName = "Tom";
+		String dogname = "Tom";//should be in small letter
 		void display2() {
-			System.out.println(DogName);
+			System.out.println(dogname);
 		}
 	}
 	class Cat extends Animal{
-		String CatName = "Tiny";
+		String catname = "Tiny";//should be in small letter
 		void display3() {
-			System.out.println(CatName);
+			System.out.println(catname);
 		}
 	}
 	public class Inheritance1 {

@@ -1,4 +1,4 @@
-package evaluationTask;
+package evaluationTask;//package should be in com.evaluationtask
 import java.util.ArrayList;
 import java.util.Scanner;
 

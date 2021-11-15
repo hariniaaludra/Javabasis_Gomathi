@@ -1,4 +1,4 @@
-package evaluationTask;
+package evaluationTask;//package should be in com.evauationtask
 import java.util.Scanner;
 
 public class Task10 {
