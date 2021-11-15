@@ -1,4 +1,4 @@
-package com.mapInterfaces;//package should be in com.mapinterfaces
+package mapInterfaces;//package should be in com.mapinterfaces
 
 public class LinkedHashMapEx {
 

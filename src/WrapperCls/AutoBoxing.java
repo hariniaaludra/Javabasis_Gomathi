@@ -1,4 +1,4 @@
-package WrapperCls;
+package WrapperCls;//package should be in com.wrappercls
 
 public class AutoBoxing {
 public static void main(String[] args) {

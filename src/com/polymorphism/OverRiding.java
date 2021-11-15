@@ -8,7 +8,7 @@ class Employee {
 }
 
 class Emply1 extends Employee {
-	void Employee(int a, int b) {
+	void employee(int a, int b) {
 		System.out.println("Name: " + a + "\n id: " + b);
 	}
 }
@@ -17,8 +17,8 @@ public class OverRiding {
 
 	public static void main(String[] args) {
 		Employee obj = new Employee();
-		obj.Employee(2, 6);
-		obj.Employee(2, 6);
+		obj.employee(2, 6);
+		obj.employee(2, 6);
 	}
 
 }

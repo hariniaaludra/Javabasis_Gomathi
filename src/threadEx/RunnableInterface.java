@@ -1,4 +1,4 @@
-package com.threadEx;
+package threadEx;//package should be in com.threadex
 
 public class RunnableInterface implements Runnable {
 

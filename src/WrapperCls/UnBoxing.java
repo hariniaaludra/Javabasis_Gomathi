@@ -1,13 +1,13 @@
-package WrapperCls;
+package WrapperCls;//package should be in com.wrappercls
 
 public class UnBoxing {
 public static void main(String[] args) {
 	
 	
-	Integer S = new Integer(10);
-	int i = S.intValue();
+	Integer s = new Integer(10);//should be in small letter
+	int i = s.intValue();
 	int j =i;
-	System.out.println(S + " "+ i + " " + j);
+	System.out.println(s + " "+ i + " " + j);
 	
 }
 }
