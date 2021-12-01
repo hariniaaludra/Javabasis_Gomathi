@@ -3,10 +3,10 @@ package evaluationTask;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import com.comparetorEx.Student;
 
-class Checker implements Comparator<Player>{
-	@Override
+
+/*class Checker implements Comparator{
+
     public int compare(Player a, Player b){
         if (a.score == b.score){
             return a.name.compareTo(b.name);
@@ -14,7 +14,7 @@ class Checker implements Comparator<Player>{
             return b.score - a.score; 
         }
     }
-}
+}*/
 class Player{
     String name;
     int score;
@@ -32,7 +32,7 @@ public class Comparator {
 	        int n = scan.nextInt();
 
 	        Player[] player = new Player[n];
-	        Checker checker = new Checker();
+	      //  Checker checker = new Checker();
 	        
 	        for(int i = 0; i < n; i++){
 	            player[i] = new Player(scan.next(), scan.nextInt());

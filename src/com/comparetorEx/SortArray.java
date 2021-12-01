@@ -1,7 +1,8 @@
 package com.comparetorEx;
 
 import java.util.ArrayList;
-import java.util.list;
+import java.util.List;
+
 
 import evaluationTask.Comparator;
 
@@ -46,7 +47,7 @@ public class SortArray {
 			
 			testCases--;
 		}
-		 studentList.sort(new Comparator(Student){
+		/* studentList.sort(new Comparator(studentList){
              public int compare(Student s1,Student s2){
                  if(s1.getCgpa()==s2.getCgpa()){
                      return s1.getFname().compareTo(s2.getFname());
@@ -58,7 +59,7 @@ public class SortArray {
                      return -1;
                      }
              }
-         });
+         });*/
    
       	for(Student st: studentList){
 			System.out.println(st.getFname());

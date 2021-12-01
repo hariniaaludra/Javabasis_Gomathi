@@ -3,9 +3,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.StringTokenize
+import java.util.StringTokenizer;
 
-import evaluationTask.MyMath;r;
+
 
 interface PerformOperation{
 	boolean check(int a);

@@ -31,7 +31,7 @@ public  void display(String countryName) throws Exception {
 		
 		Currancy obj1 = new Currancy();
 		
-		System.out.println(obj1.display("India"));
+		//System.out.println(obj1.display("India"));
 		
 		
 	}
