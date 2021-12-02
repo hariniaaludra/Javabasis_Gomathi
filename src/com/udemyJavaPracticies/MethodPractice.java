@@ -20,7 +20,9 @@ public class MethodPractice {
 		else if(category== 'F') {
 			System.out.println("Energy consumption level is very high");
 		}
-		
+		else {
+			System.out.println("Invalid Energy consumption");
+		}
 	}
 	public static void main(String[] args)
 	{
