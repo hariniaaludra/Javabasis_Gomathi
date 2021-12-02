@@ -1,4 +1,4 @@
-package com.javaPracticies;
+package com.udemyJavaPracticies;
 
 public class FirstProgram {
 	
