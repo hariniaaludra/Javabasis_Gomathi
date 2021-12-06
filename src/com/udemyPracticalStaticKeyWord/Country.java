@@ -1,15 +1,11 @@
 package com.udemyPracticalStaticKeyWord;
 
 public class Country {
-	private static int numberOfCountries;
+	private static int numberOfCountries =0;
     private final String name;
     private int population;
     private String capital;
     
-    	static {
-    		numberOfCountries = 5;
-    	}
-
 		public Country(String name, int population, String capital) {
 			
 			this.name = name;
@@ -26,9 +22,5 @@ public class Country {
 		 public static int getNumberOfCountries() {
 		        return numberOfCountries;
 		    }
-		 static {
-	    		numberOfCountries = 0;
-	    	}
-
 		
 }

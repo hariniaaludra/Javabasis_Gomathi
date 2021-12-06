@@ -14,9 +14,10 @@ public class StringFunction {
 	            System.out.println("The text typed in is: " + countryName);
 	        }
 	        
+	        System.out.println("The input text contains ab."+countryName.contains("ab") );
 
-	        if (countryName.contains("Ind")) {
-	            System.out.println("The input text contains Ind.");
+	        if (!countryName.contains("ab")) {
+	            System.out.println("The input text contains ab.");
 	        }
 
 	        if (countryName.isEmpty()) {
