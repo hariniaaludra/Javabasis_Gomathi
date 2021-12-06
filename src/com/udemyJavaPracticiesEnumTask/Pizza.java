@@ -1,4 +1,4 @@
-package com.udemyJavaPracticiesEnum;
+package com.udemyJavaPracticiesEnumTask;
 
 public class Pizza {
 	private String name;

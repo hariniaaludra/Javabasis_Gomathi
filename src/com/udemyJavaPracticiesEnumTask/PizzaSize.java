@@ -1,4 +1,4 @@
-package com.udemyJavaPracticiesEnum;
+package com.udemyJavaPracticiesEnumTask;
 
 public enum PizzaSize {
 	 SMALL("Small size"), MEDIUM("Medium size"), LARGE("Large size");
